@@ -1,0 +1,12 @@
+In public/index.php
+
+
+/**
+ * @todo: revise this
+ */
+spl_autoload_register(
+    function ($class) {
+        $file = str_replace('\\', '/', $class) . '.php';
+        require BASE . '/src/' . $file;
+    }
+);
