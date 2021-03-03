@@ -23,7 +23,7 @@ class Hosting {
     /**
      * Create hosting
      *
-     * If we have email, we created with email associated
+     * If we have email, we create with email associated
      *
      * @return boolean
      */
