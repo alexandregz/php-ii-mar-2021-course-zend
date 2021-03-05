@@ -9,7 +9,7 @@ spl_autoload_register(
     }
 );
 
-use Service\Hosting;
+//use Service\Hosting;
 use Service\HostingPersonal;
 
 //$host = new Hosting('test.com', 'testcom', 'aexxxxxx@xxxxxxxx.com');
