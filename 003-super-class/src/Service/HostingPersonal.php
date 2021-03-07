@@ -24,12 +24,17 @@ class HostingPersonal extends Hosting {
      * Extends create and control if we need add PHP-fpm to hosting
      * @return bool
      */
-    public function create()
+    public function create(string $nameservice)
     {
-        if(parent::create()) {
+        if(parent::create($nameservice)) {
             if($this->with_php) {
                 parent::addPhp();
             }
         }
+    }
+
+    public function delete(string $nameservice, bool $backup = false)
+    {
+        // TODO: Implement delete() method.
     }
 }
