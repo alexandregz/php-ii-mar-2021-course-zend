@@ -24,18 +24,10 @@ use Service\HostingPersonal;
 
 $hostPersonal = new HostingPersonal('test-personal.com', 'testpersonalcom', 'aexxxxxx@xxxxxxxx.com', true);
 echo "Creating HostingPersonal\n";
-if($hostPersonal->create('test-personal.com')) {
+if($hostPersonal->create('test-personal-cambio-dom.com')) {
     echo "Hosting 'Personal' created in ".Hosting::HOME."\n";
 }
 echo "$hostPersonal isCreated: ".var_export($hostPersonal->isCreated(), true);
 echo "\n";
 
 
-
-$hostPersonal = new HostingPersonal('test-personal.com', 'testpersonalcom', 'aexxxxxx@xxxxxxxx.com', true);
-echo "Creating HostingPersonal\n";
-if($hostPersonal->create('test-personal.com')) {
-    echo "Hosting 'Personal' created in ".Hosting::HOME."\n";
-}
-echo "$hostPersonal isCreated: ".var_export($hostPersonal->isCreated(), true);
-echo "\n";

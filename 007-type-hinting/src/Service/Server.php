@@ -8,13 +8,15 @@ class Server implements Service {
     {
     }
 
-    public function create()
+    public function create() :bool
     {
         // TODO: Implement create() method.
+        return true;
     }
 
-    public function delete()
+    public function delete(): bool
     {
         // TODO: Implement delete() method.
+        return false;
     }
 }

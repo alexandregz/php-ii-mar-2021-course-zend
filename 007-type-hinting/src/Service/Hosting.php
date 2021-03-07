@@ -27,7 +27,7 @@ abstract class Hosting implements Service {
      *
      * @return boolean
      */
-    public function create(string $nameservice)
+    public function create(string $nameservice) :bool
     {
         // ToDo create hosting
         if($this->email) {
@@ -48,16 +48,17 @@ abstract class Hosting implements Service {
     /**
      * Delete hosting
      */
-    public function delete(string $nameservice, bool $backup = false)
+    public function delete(string $nameservice, bool $backup = false) :bool
     {
         // ToDo delete hosting
+        return true;
     }
 
     /**
      * Check if hosting is created
      * @return bool
      */
-    public function isCreated()
+    public function isCreated() :bool
     {
         return $this->_created;
     }
@@ -66,7 +67,7 @@ abstract class Hosting implements Service {
      * Add PHP-fpm to hosting
      * @return bool
      */
-    public function addPhp() {
+    public function addPhp() :bool {
         // ToDo to implement
         echo "Add PHP-fpm to Hosting...\n";
 
