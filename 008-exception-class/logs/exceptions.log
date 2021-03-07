@@ -1,0 +1,12 @@
+[2021-03-07 10:54:19] [CODE: ] We can't create HostingPersonal with PHP! -- #0 /home/vagrant/php-ii-mar-2021-course-zend/008-exception-class/index.php(29): Service\HostingPersonal->create()
+#1 {main}
+[2021-03-07 10:55:09] [CODE: ] We can't create HostingPersonal with PHP! -- #0 /home/vagrant/php-ii-mar-2021-course-zend/008-exception-class/index.php(29): Service\HostingPersonal->create()
+#1 {main}
+[2021-03-07 10:55:24] [CODE: ] We can't create HostingPersonal with PHP! -- #0 /home/vagrant/php-ii-mar-2021-course-zend/008-exception-class/index.php(29): Service\HostingPersonal->create()
+#1 {main}
+[2021-03-07 10:55:26] [CODE: ] We can't create HostingPersonal with PHP! -- #0 /home/vagrant/php-ii-mar-2021-course-zend/008-exception-class/index.php(29): Service\HostingPersonal->create()
+#1 {main}
+[2021-03-07 11:00:26] [CODE: ] We can't create HostingPersonal with PHP! -- #0 /home/vagrant/php-ii-mar-2021-course-zend/008-exception-class/index.php(29): Service\HostingPersonal->create()
+#1 {main}
+[2021-03-07 11:01:10] [CODE: ] We can't create HostingPersonal with PHP! -- #0 /home/vagrant/php-ii-mar-2021-course-zend/008-exception-class/index.php(29): Service\HostingPersonal->create()
+#1 {main}
